@@ -192,15 +192,15 @@ play_game <- function( )
 #' @title
 #'  Simulate many iterations of the Monty Hall game
 #' @description
-#'  x
+#'  Description
 #' @details
-#'  x
+#'  Details
 #' @param
-#'  x 
+#'  n - number of trials to simulate
 #' @return
-#'  x 
+#'  a data frame of results
 #' @examples
-#'  x
+#'  play_n_games(5)
 #' @export
 play_n_games <- function( n=100 )
 {

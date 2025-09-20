@@ -7,17 +7,19 @@
 play_n_games(n = 100)
 }
 \arguments{
-\item{x}{}
+\item{n}{\itemize{
+\item number of trials to simulate
+}}
 }
 \value{
-x
+a data frame of results
 }
 \description{
-x
+Description
 }
 \details{
-x
+Details
 }
 \examples{
- x
+ play_n_games(5)
 }

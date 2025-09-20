@@ -19,8 +19,8 @@ Return text to show a win or a loss
 This step determines the final choice door and declares the game a win or a loss.
 }
 \details{
-x
+No details
 }
 \examples{
- x
+ determine_winner(1,create_game())
 }

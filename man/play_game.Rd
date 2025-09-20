@@ -7,17 +7,17 @@
 play_game()
 }
 \arguments{
-\item{x}{}
+\item{No}{paremeters}
 }
 \value{
-x
+Returns game results win or lose
 }
 \description{
-x
+Adds up all the functions to play a game
 }
 \details{
-x
+No details
 }
 \examples{
- x
+ play_game()
 }

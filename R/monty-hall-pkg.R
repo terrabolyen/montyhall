@@ -45,7 +45,7 @@ create_game <- function()
 #' @return 
 #'  the function returns a number between one and three
 #' @examples
-#'   select_door)
+#'   select_door()
 #' @export
 select_door <- function( )
 {
@@ -68,7 +68,7 @@ select_door <- function( )
 #' @return 
 #'  the function returns a number between one and 3 representing the opened goat door
 #' @examples
-#'  open_goat_door()
+#'  open_goat_door( create_game(), select_door())
 #' @export
 open_goat_door <- function( game, a.pick )
 {
@@ -94,7 +94,7 @@ open_goat_door <- function( game, a.pick )
 #' @description
 #'  This step is the opportunity to switch doors or stay with the first pick
 #' @details
-#'  x
+#'  No details
 #' @param 
 #'  stay - logical, T or F
 #'  opened.door - the output of open_goat_door
@@ -102,7 +102,7 @@ open_goat_door <- function( game, a.pick )
 #' @return 
 #'  return a number between 1-3
 #' @examples
-#'  x
+#'  change_door(stay=T,  open_goat_door( create_game(), select_door()), select_door())
 #' @export
 change_door <- function( stay=T, opened.door, a.pick )
 {
@@ -127,14 +127,14 @@ change_door <- function( stay=T, opened.door, a.pick )
 #' @description
 #'  This step determines the final choice door and declares the game a win or a loss.
 #' @details
-#'  x
+#'  No details
 #' @param 
 #'  final.pick - output from change_door()
 #'  game - output from create_game()
 #' @return 
 #'  Return text to show a win or a loss
 #' @examples
-#'  x
+#'  determine_winner(1,create_game())
 #' @export
 determine_winner <- function( final.pick, game )
 {
@@ -155,15 +155,15 @@ determine_winner <- function( final.pick, game )
 #' @title
 #'  Create and play a Monty Hall problem game
 #' @description
-#'  x
+#'  Adds up all the functions to play a game
 #' @details
-#'  x
+#'  No details
 #' @param
-#'  x 
+#'  No paremeters
 #' @return
-#'  x 
+#'  Returns game results win or lose
 #' @examples
-#'  x
+#'  play_game()
 #' @export
 play_game <- function( )
 {

@@ -22,5 +22,5 @@ This function represents the next step of the game, where the host opens one of 
 This step samples between the remaining doors depending on whether the initial pick is a goat or car.
 }
 \examples{
- open_goat_door()
+ open_goat_door( create_game(), select_door())
 }

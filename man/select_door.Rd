@@ -19,5 +19,5 @@ the function returns a number between one and three
 This function selects the door for the game by sampling from a set of 1-3
 }
 \examples{
-  select_door)
+  select_door()
 }

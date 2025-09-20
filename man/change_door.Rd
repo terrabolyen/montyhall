@@ -20,8 +20,8 @@ return a number between 1-3
 This step is the opportunity to switch doors or stay with the first pick
 }
 \details{
-x
+No details
 }
 \examples{
- x
+ change_door(stay=T,  open_goat_door( create_game(), select_door()), select_door())
 }
